@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Chance = require('chance');
 const chance = new Chance();
 
-mongoose.connect("mongodb+srv://pnkjbee:O8WalWD5OeFwnQf9@cluster0.x9h5v2a.mongodb.net");
+mongoose.connect(process.env.MONGODB_URI);
 const Schema = mongoose.Schema;
 
 const doctorSchema = new Schema({
