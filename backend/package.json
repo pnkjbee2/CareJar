@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+  	"node-fetch": "^2.6.1",
   	"express": "^4.17",
     "chance": "^1.1.11",
     "cors": "^2.8.5",
