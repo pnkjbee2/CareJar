@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || 3030;
 const cors = require('cors')
 const fetch = require('node-fetch');
-require('dotenv').config()
+
 
 var Chance = require('chance');
 const { saveDoctor, Doctor, fetchDoctorsFromDB } = require('./doctor')
